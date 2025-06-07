@@ -1,4 +1,4 @@
-New-Item -Path "$env:PUBLIC\ran_from_service.txt" -ItemType File -Force
+New-Item -Path "C:\Windows\Temp\ran_from_service.txt" -ItemType File -Force
 
 $logPath = "C:\Windows\Temp\updater_log.txt"
 
